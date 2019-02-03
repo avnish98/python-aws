@@ -17,4 +17,4 @@ source ~/.bashrc
 
 # Importing virtual enviroment 
 conda env create -f python-aws.yml
-conda activate python-aws
+source activate python-aws
