@@ -13,3 +13,11 @@ Conda virtual enviroment with
 - matplotlib
 - ipython
 - jupyter notebook
+
+To copy files to AWS cloud instance use :    
+```scp -i <aws-key-pair> python-aws.sh ubuntu@ec2-XX-XXX-XX-XX.XX-XXXX-X.compute.amazonaws.com:~/```  
+  
+```scp -i <aws-key-pair> python-aws.yml ubuntu@ec2-XX-XXX-XX-XX.XX-XXXX-X.compute.amazonaws.com:~/```
+
+To download files from AWS :  
+```scp -i <aws-key-pair> ubuntu@ec2-XX-XXX-XX-XX.XX-XXXX-X.compute.amazonaws.com:<path-to-file> <destination>```
