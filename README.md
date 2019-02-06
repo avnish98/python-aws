@@ -19,5 +19,8 @@ To copy files to AWS cloud instance use :
   
 ```scp -i <aws-key-pair> python-aws.yml ubuntu@ec2-XX-XXX-XX-XX.XX-XXXX-X.compute.amazonaws.com:~/```
 
+Add execution permission to bash scipt :  
+```chmod +x python-aws.sh```  
+
 To download files from AWS :  
 ```scp -i <aws-key-pair> ubuntu@ec2-XX-XXX-XX-XX.XX-XXXX-X.compute.amazonaws.com:<path-to-file> <destination>```
