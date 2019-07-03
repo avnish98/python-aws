@@ -1,4 +1,6 @@
 # Deploy Jupyter Notebook on AWS EC2 instance  
+  
+For complete instructions visit the [medium article](https://medium.com/pyfinance/deploy-jupyter-notebook-on-aws-ec2-instance-a6cd304ae744).  
 
 ## python-aws.sh  
 1. Installs bzip2, gcc, git, htop, screen, vim, and wget on cloud instance.
